@@ -25,7 +25,7 @@ namespace DesafioFundamentos.Models
             }
             catch (Exception erro)
             {
-                Console.WriteLine(erro.Message);
+                Console.WriteLine($"Houve um erro: {erro.Message}");
             }
         }
 
